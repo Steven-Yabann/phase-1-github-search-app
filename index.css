@@ -10,4 +10,21 @@
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+}
+
+li {
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#user-list {
+  max-width: 600px;
+}
+
+#repos-list {
+  max-width: 400px;
 }
